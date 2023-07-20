@@ -1,0 +1,94 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'poppins',sans-serif;
+  box-sizing: border-box;
+}
+.container{
+  width: 100vw;
+  height: 100vh;
+  background-image: url(space1.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 0  10%;
+}
+.content
+{
+  top:50%;
+  position: absolute;
+  transform: translateY(-50%);
+  color: #fff;
+}
+.content h1{
+  font-size: 65px;
+  font-weight: 500;
+}
+.content h1 span{
+  color:#2597D9;
+}
+
+.content button{
+  background: transparent;
+  border:2px solid #fff;
+  outline: none;
+  padding: 12px 30px;
+  color:white;
+  display: flex;
+  align-items: center;;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.content button img{
+  width:20px;
+  margin-left: 15px;
+}
+.launch-time{
+  display: flex;
+}
+.launch-time p{
+  font-size: 40px;
+  margin-bottom: -14px;
+  padding: 10px;
+}
+.launch-time div{
+  flex-basis: 100px;
+
+}
+.rocket{
+  width:25%;
+  height:25%;
+  padding-bottom:0%;
+  padding-left: 55%;
+  position:relative;
+}
+.heading
+{
+  color:white;
+}
+.bottom-container{
+  width: 40%;
+ margin-left: 50px;
+ margin-bottom: 0px;
+}
+
+#hours{
+  font-size: 70px;
+}
+#minutes{
+  font-size: 70px;
+}
+#seconds{
+  font-size: 70px;
+}
+.footer-link
+{
+  margin-bottom: 10px;
+}
+.contact-me
+{
+  margin-right: 30px;
+}
+.warning{
+  position:absolute;
+  font-size: 25px;
+}
